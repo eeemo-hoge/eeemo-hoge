@@ -8,6 +8,8 @@
 
 - C 系言語
 - Bash などのスクリプト言語
+- LPIC
+- Nutrition
 
 ## 🔒 大切にしていること
 
@@ -25,6 +27,8 @@ I aim to create things that are free of charge whenever possible, guided by the 
 
 - C-family languages
 - Bash and other scripting languages
+- LPIC
+- Nutrition
 
 ## 🔒 What Matters to Me
 
