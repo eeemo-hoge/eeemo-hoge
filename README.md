@@ -18,16 +18,7 @@
 ## いま考えていること
 
 - プライバシーを大切にしたソフトウェア
-
----
-
-
-#Aboutme
-
-<div align="center">
-
-</div>
-
+- 
 ## What is the difference?
 
 I love it.
