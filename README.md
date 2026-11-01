@@ -1,9 +1,3 @@
-# Aboutme
-
-<div align="center">
-  
-</div>
-
 ## 私について
 
 こんにちは。
@@ -26,6 +20,44 @@
 - プライバシーを大切にしたソフトウェア
 
 ---
+
+
+#Aboutme
+
+<div align="center">
+
+</div>
+
+## What is the difference?
+
+I love it.
+There are many things that will happen in the future.
+There are many people in GNU who are friendly to each other.
+2000 years ago There are many people in the world who will not be able to leave the house.
+It's a lot of things and it's not like that.
+
+---
+
+## 学ぶこと
+
+- C系
+- Bash's official website.
+
+---
+
+## It's a long time ago.
+
+- It is a beautiful forest and a beautiful forest.
+
+---
+
+
+---
+
+## To-Do List
+- [ Japanese style ]
+- [ VRCのギミック ]
+- [ 配信設定 ]
 
 
 ---
