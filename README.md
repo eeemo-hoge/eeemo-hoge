@@ -1,20 +1,31 @@
-## 私について
+# 👋 私について
 
-こんにちは。
-ネットを中心に活動しているプログラマです。
-作るものは、できるだけ無料で、GNU の考え方に則っています。
-コーディングは 2000 年代初期の雰囲気が好きで、もう一度再現したいからです。
-その世界でお仕事ができたらうれしいです。
+こんにちは。ネットを中心に活動しているプログラマです。
+
+できるだけ無償で、GNU の理念に沿ったものづくりを目指しています。2000年代初期のコーディングの雰囲気が好きで、あの時代の空気をもう一度形にしたいと思っています。いつか、そんな世界に関わる仕事ができたらうれしいです。
+
+## 📚 学んでいること
+
+- C 系言語
+- Bash などのスクリプト言語
+
+## 🔒 大切にしていること
+
+- プライバシーを尊重するソフトウェア
 
 ---
 
-## 学ぶこと
+# 👋 About Me
 
-- C系
-- Bashなど、スクリプト系。
+Hello! I'm a programmer who is active primarily online.
 
----
+I aim to create things that are free of charge whenever possible, guided by the principles of GNU. I love the feel of early-2000s coding and hope to bring some of that era's spirit back to life. I'd be happy to work in that kind of world someday.
 
-## いま考えていること
+## 📚 What I'm Learning
 
-- プライバシーを大切にしたソフトウェア
+- C-family languages
+- Bash and other scripting languages
+
+## 🔒 What Matters to Me
+
+- Software that respects privacy
