@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Todo Heatmap</title>
+<style>
+  body { font-family: sans-serif; max-width: 860px; margin: 2em auto; padding: 0 1em; color: #1f2328; }
+  form { display: flex; gap: .5em; margin-bottom: 1em; }
+  input[type=text] { flex: 1; padding: .4em; }
+  ul { list-style: none; padding: 0; }
+  li { padding: .3em 0; border-bottom: 1px solid #d0d7de; display: flex; gap: .5em; align-items: center; }
+  li.done span { text-decoration: line-through; color: #6e7781; }
+  li span { flex: 1; }
+  .graph { overflow-x: auto; margin: 1em 0; }
+  .grid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px); grid-auto-columns: 12px; gap: 3px; }
+  .cell { width: 12px; height: 12px; border-radius: 2px; background: #ebedf0; }
+  .l1 { background: #9be9a8; } .l2 { background: #40c463; }
+  .l3 { background: #30a14e; } .l4 { background: #216e39; }
+  .legend { display: flex; gap: 3px; align-items: center; font-size: .8em; margin-top: .5em; }
+  #summary { font-size: .9em; margin-bottom: .5em; }
+</style>
+</head>
+<body>
+<h1>Todo</h1>
+<form id="form">
+  <input type="text" id="title" placeholder="新しいタスク" required>
+  <button>追加</button>
+</form>
+<ul id="list"></ul>
+
+<h2>完了の履歴</h2>
+<div id="summary"></div>
+<div class="graph"><div class="grid" id="grid"></div></div>
+<div class="legend">少 <i class="cell"></i><i class="cell l1"></i><i class="cell l2"></i><i class="cell l3"></i><i class="cell l4"></i> 多</div>
+
+<script>
+const KEY = 'todo-heatmap';
+const WEEKS = 26;
+let todos = JSON.parse(localStorage.getItem(KEY) || '[]');
+
+const save = () => localStorage.setItem(KEY, JSON.stringify(todos));
+const dayKey = d => {
+  const p = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+};
+
+function renderList() {
+  const ul = document.getElementById('list');
+  ul.textContent = '';
+  todos.forEach(t => {
+    const li = document.createElement('li');
+    if (t.done) li.className = 'done';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = t.done;
+    cb.onchange = () => {
+      t.done = cb.checked;
+      t.doneAt = t.done ? Date.now() : null;
+      save(); render();
+    };
+    const span = document.createElement('span');
+    span.textContent = t.title;
+    const del = document.createElement('button');
+    del.textContent = '削除';
+    del.onclick = () => { todos = todos.filter(x => x !== t); save(); render(); };
+    li.append(cb, span, del);
+    ul.append(li);
+  });
+}
+
+function renderGraph() {
+  const counts = {};
+  let total = 0;
+  todos.forEach(t => {
+    if (t.done && t.doneAt) {
+      const k = dayKey(new Date(t.doneAt));
+      counts[k] = (counts[k] || 0) + 1;
+      total++;
+    }
+  });
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const start = new Date(today);
+  start.setDate(start.getDate() - (WEEKS * 7 - 1) - today.getDay());
+  const grid = document.getElementById('grid');
+  grid.textContent = '';
+  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+    const k = dayKey(d);
+    const c = counts[k] || 0;
+    const cell = document.createElement('div');
+    cell.className = 'cell' + (c ? ' l' + Math.min(c, 4) : '');
+    cell.title = `${k}: ${c} 件完了`;
+    grid.append(cell);
+  }
+  document.getElementById('summary').textContent =
+    `完了 ${total} 件 / 全 ${todos.length} 件`;
+}
+
+function render() { renderList(); renderGraph(); }
+
+document.getElementById('form').onsubmit = e => {
+  e.preventDefault();
+  const input = document.getElementById('title');
+  todos.push({ title: input.value.trim(), done: false, doneAt: null });
+  input.value = '';
+  save(); render();
+};
+render();
+</script>
+</body>
+</html>
