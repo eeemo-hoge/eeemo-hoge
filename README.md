@@ -1,7 +1,7 @@
 
 # About Me
 - unknown silent lover coder who started learning Linux.
-- I was studying psychology but, that was like a side quests.
+- I was studying psychology but, that was like a side quests but, surely became a firewall to training meta cognition. ( still have passion abt it though ).
 - Mostly following MIT or GNU license.
 
 ## I currently working on.
