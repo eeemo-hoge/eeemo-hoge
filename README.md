@@ -9,8 +9,8 @@
 - Linux commands.
 - Linux system itself.
 - Bash zsh or etc.
-- nutrition.
-- way to be tranquility state.
+- Nutrition.
+- Way to be tranquility state.
 
 ## 🔒 What Matters "to Me"
 
