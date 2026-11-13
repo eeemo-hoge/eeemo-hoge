@@ -8,6 +8,7 @@
 ## I currently working on.
 - Linux commands.
 - Linux system itself.
+- Bash zsh or etc.
 - nutrition.
 - way to be tranquility state.
 
