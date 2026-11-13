@@ -4,7 +4,7 @@
 - I was studying psychology but, that was like a side quests.
 - Mostly following MIT or GNU license.
 
-## currently working on.
+## I currently working on.
 - Linux commands.
 - Linux system itself.
 - nutrition.
