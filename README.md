@@ -1,5 +1,5 @@
 
-# About Me
+## About Me
 - unknown silent coder.
 - I started learning Linux.
 - I was studying psychology but, coding is way more clicked in my head.
