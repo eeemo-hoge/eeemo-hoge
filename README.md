@@ -10,7 +10,7 @@
 - Linux system itself.
 - Bash or etc.
 - Nutrition.
-- Way to be calm down.
+- Way to be calm down state forever.
 
 ## 🔒 What Matters "to Me"
 
