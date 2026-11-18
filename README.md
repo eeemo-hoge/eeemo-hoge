@@ -17,3 +17,4 @@
 - Software that respects privacy, free and no ads. 
 
 [description](LICENSE)
+license is "[LICENSE](LICENSE)"
