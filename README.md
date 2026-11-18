@@ -15,3 +15,5 @@
 ## 🔒 What Matters "to Me"
 
 - Software that respects privacy, free and no ads. 
+
+[description](LICENSE)
