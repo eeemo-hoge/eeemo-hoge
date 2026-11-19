@@ -19,5 +19,5 @@
 
 ## 🔒 What Matters "to Me"
 - Software that respects privacy, should be free and no ads. 
-
-license is "[LICENSE](LICENSE)"
+- This bio is also follow MIT btw.
+- license is "[LICENSE](LICENSE)"
