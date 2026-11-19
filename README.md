@@ -1,8 +1,8 @@
 
 ## About Me
-- I um, i was kinda ignoring the health or other side quests. So, I completely jump into, doing "fixing myself or etc" scenario or chapter rn.  
-- I just started learning Linux and coding. 
-- My major was not cs but, tech stuffs is way more clicked in my head.
+- I was kinda ignoring health, rushed into main quest. So, I completely jumped into "fixing myself or etc" chapter rn.  
+- I just started learning Linux or coding. 
+- My major was not CS but, tech stuffs is way more clicked in my head.
 - I basically follow MIT or GNU license.
 
 ## I currently working on.
@@ -10,10 +10,14 @@
 - Linux system itself.
 - Bash or etc.
 - Nutrition.
-- Way to be calm down state forever.
+- Way to be tranquilize state.
+
+## My devices setup. 
+- Phone : I prefer f-droid or apk build rather than google play store. OS is android. 
+- Main pc : gen 9 core i5. ddr 4 32 gb ram. ssd*2. hdd*5.(just Really scare to loose data) OS is mint 22.3 cinnamon.
+- Laptop : dell core i5. ( regret to did not buy thinkpad.) OS:same to above.
 
 ## 🔒 What Matters "to Me"
-
-- Software that respects privacy, free and no ads. 
+- Software that respects privacy, should be free and no ads. 
 
 license is "[LICENSE](LICENSE)"
