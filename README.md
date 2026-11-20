@@ -13,7 +13,7 @@
 - Way to be tranquilize state.
 
 ## My devices setup. 
-- Phone : I prefer to use f-droid or apk build. OS is android. 
+- Phone : OS is android. 
 - Main pc : cpu:gen 9 core i5. ram:ddr4 8gb*4. drive:ssd*2. hdd*5.  OS: linux mint 22.3 cinnamon.
 - Laptop : dell core i5. OS:same to main.
 
