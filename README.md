@@ -13,8 +13,8 @@
 - Way to be tranquilize state.
 
 ## My devices setup. 
-- Phone : I prefer to use f-droid or apk build rather than google play store. OS is android. 
-- Main pc : gen 9 core i5. ddr4 8gb*4. ssd*2. hdd*5. (just in case yk). OS is mint 22.3 cinnamon.
+- Phone : I prefer to use f-droid or apk build. OS is android. 
+- Main pc : cpu:gen 9 core i5. ram:ddr4 8gb*4. drive:ssd*2. hdd*5.  OS: linux mint 22.3 cinnamon.
 - Laptop : dell core i5. OS:same to main.
 
 ## 🔒 What Matters "to Me"
