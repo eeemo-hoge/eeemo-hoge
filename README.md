@@ -1,6 +1,6 @@
 
 ## About Me
-- I was kinda ignoring health, rushed into main quest. So, I completely jumped into "fixing myself or etc" chapter rn.  
+- I rushed into main quest without concerning health. So, I completely jumped into "fixing myself" chapter rn.  
 - I just started learning Linux or coding. 
 - My major was not CS but, tech stuffs is way more clicked in my head.
 - I basically follow MIT or GNU license.
