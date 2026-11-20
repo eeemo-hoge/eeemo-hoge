@@ -13,11 +13,9 @@
 - Way to be tranquilize state.
 
 ## My devices setup. 
-- Phone : I prefer f-droid or apk build rather than google play store. OS is android. 
-- Main pc : gen 9 core i5. ddr 4 32 gb ram. ssd*2. hdd*5.(just Really scare to loose data) OS is mint 22.3 cinnamon.
-- Laptop : dell core i5. ( regret to did not buy thinkpad.) OS:same to above.
+- Phone : I prefer to use f-droid or apk build rather than google play store. OS is android. 
+- Main pc : gen 9 core i5. ddr4 8gb*4. ssd*2. hdd*5. (just in case yk). OS is mint 22.3 cinnamon.
+- Laptop : dell core i5. OS:same to main.
 
 ## 🔒 What Matters "to Me"
 - Software that respects privacy, should be free and no ads. 
-- This bio is also follow MIT btw.
-- license is "[LICENSE](LICENSE)"
