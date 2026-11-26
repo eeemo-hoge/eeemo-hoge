@@ -18,5 +18,5 @@
 - Main pc : cpu:gen 9 core i5. ram:ddr4 8gb*4. drive:ssd*2. hdd*5.  OS: linux mint 22.3 cinnamon.
 - Laptop : dell core i5. OS:same to main.
 
-## 🔒 What Matters "to Me"
+## Phylosophy
 - Software that respects privacy, should be free and no ads. 
