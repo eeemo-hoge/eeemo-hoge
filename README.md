@@ -1,15 +1,14 @@
 
 ## About Me
-- I rushed into main quest without concerning health. So, I completely jumped into "fixing myself" chapter rn.  
 - I just started learning Linux and coding. 
-- My major was not CS but, tech stuffs is way more clicked in my head.
-- I basically follow MIT or GNU license.
+- My major was not CS. 
+- I basically follow MIT or GNU.
 
 ## I currently working on.
 - Linux commands.
 - Linux system itself.
 - Bash or etc.
-- Nutrition and medicine stuffs to, things keep functionally move on. ( it is just like importance of hardware maintenance, health as well. )
+- Nutrition and medicine.
 - Way to be tranquilize state.
 - Full stack memory by c++
 
