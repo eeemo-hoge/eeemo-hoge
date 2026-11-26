@@ -5,12 +5,17 @@
 - I basically follow MIT or GNU.
 
 ## I currently working on.
-- Linux commands.
-- Linux system itself.
-- Bash or etc.
-- Nutrition and medicine.
+- Linux systems.
+- Bash commands or etc.　
+- LPIC mock exam.
+- Nutrition, medicine and psychology.
 - Way to be tranquilize state.
-- Full stack memory by c++
+- Full stack memory by C
+
+## Outlook
+- Learn security.
+- Atomic habit. 
+- Room toxic cleaning.  
 
 ## My devices setup. 
 - Phone : OS is android. 
@@ -19,3 +24,4 @@
 
 ## Phylosophy
 - Software that respects privacy, should be free and no ads. 
+- Don't hesitate to strive to solve problems. 
